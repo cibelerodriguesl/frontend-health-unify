@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./src/assets/css/carousel-home.css" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <div>logo</div>
+      <nav>
+        <ul>
+          <li>
+            <a class="select_page" href="./index.html">Home</a>
+          </li>
+          <li><a href="./src/pages/Paciente/index.html">Paciente</a></li>
+          <li>
+            <a href="./src/pages/Parceiros/index.html">Parceiros</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="content_section">
+          <h1>Seu universo de saúde em um único acesso</h1>
+          <p>
+            Aqui, a saúde e o bem-estar se unem em uma experiência perfeitamente
+            integrada, proporcionando a você um universo de cuidados através de
+            um único ponto de entrada.
+          </p>
+        </div>
+        <div class="container_image">
+          <img src="./src/assets/images/banner-home.svg" alt="banner-home" />
+        </div>
+      </section>
+      <h2>Aqui você encontrará</h2>
+      <section class="container_section_cards">
+        <div class="card">
+          <ul class="content_card">
+            <li><img src="./src/assets/images/icon-card-1-home.svg" alt="" /></li>
+
+            <li>
+              <h3>Acesso fácil e seguro</h3>
+            </li>
+
+            <li>
+              <p>
+                Oferece acesso fácil e seguro a dados de saúde, permitindo que
+                pacientes e médicos acessem informações quando e onde
+                precisarem.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <ul class="content_card">
+            <li><img src="./src/assets/images/icon-card-2-home.svg" alt="" /></li>
+
+            <li>
+              <h3>Economia de tempo e recursos</h3>
+            </li>
+
+            <li>
+              <p>
+                HealthUnify ajuda médicos e pacientes a economizarem tempo e
+                recursos, eliminando a necessidade de procurar informações em
+                várias fontes de papel.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <ul class="content_card">
+            <li><img src="./src/assets/images/icon-card-3-home.svg" alt="" /></li>
+
+            <li>
+              <h3>Unificação de dados</h3>
+            </li>
+
+            <li>
+              <p>
+                HealthUnify oferece a capacidade de unificar dados de saúde.
+                Proporcionando uma visão completa do histórico de saúde.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <iframe
+          width="100%"
+          height="684"
+          src="https://www.youtube.com/embed/u7UVt-16hOU?si=Yd-tXaVHbAGMkrJ8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section>
+        <div class="carrusel">
+          <div class="slide">
+            <h2>Nossa Missão</h2>
+            <p>
+              Oferece acesso fácil e seguro a dados de saúde, permitindo que
+              pacientes e médicos acessem informações quando e onde precisarem.
+            </p>
+          </div>
+          <div class="slide">
+            <h2>Nossa Visão</h2>
+            <!-- alterar texto -->
+            <p>
+              Oferece acesso fácil e seguro a dados de saúde, permitindo que
+              pacientes e médicos acessem informações quando e onde precisarem.
+            </p>
+          </div>
+          <div class="slide">
+            <h2>Nossos Valores</h2>
+            <!-- alterar texto -->
+            <p>
+              Oferece acesso fácil e seguro a dados de saúde, permitindo que
+              pacientes e médicos acessem informações quando e onde precisarem.
+            </p>
+          </div>
+          <a class="control" id="prev" onclick="plusSlides(-1)">
+            <img
+              class="icon_arrow"
+              src="./src/assets/images/icon-arrow-prev-home.svg"
+              alt=""
+            />
+          </a>
+          <a class="control" id="next" onclick="plusSlides(1)">
+            <img
+              class="icon_arrow"
+              src="./src/assets/images/icon-arrow-next-home.svg"
+              alt=""
+            />
+          </a>
+          <div class="indicadores">
+            <span class="indicador" onclick="currentSlide(1)"></span>
+            <span class="indicador" onclick="currentSlide(2)"></span>
+            <span class="indicador" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+        <script src="./src/assets/js/carousel.js"></script>
+      </section>
+
+      <section>
+        <div class="container_cta">
+          <img
+            class="image_cta"
+            src="./src/assets/images/vector-card-pacient.svg"
+            alt=""
+          />
+
+          <ul class="content_card_cta">
+            <li>
+              <h3>Quer ser um paciente unifyer?</h3>
+            </li>
+            <li>
+              <p>Faça agora o seu cadastro como paciente</p>
+            </li>
+            <li>
+              <a class="button_cta" href="#">Saiba mais</a>
+            </li>
+          </ul>
+        </div>
+        <div class="container_cta">
+          <img
+            class="image_cta"
+            src="./src/assets/images/vector-card-professional.svg"
+            alt=""
+          />
+
+          <ul class="content_card_cta">
+            <li>
+              <h3>Quer se tornar nosso parceiro?</h3>
+            </li>
+            <li>
+              <p>Faça agora o seu cadastro como empresa</p>
+            </li>
+            <li>
+              <a class="button_cta" href="#">Saiba mais</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <article>
+        <h2>Nossos criadores</h2>
+        <div>
+          <ul>
+            <li><img src="./src/assets/images/image-card-1.svg" alt="" /></li>
+            <li>
+              <h3>Augusto Ryu</h3>
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/augusto-ryu/"
+                  target="_blank"
+                  ><img
+                    style="height: 34px"
+                    src="./src/assets/images/icon-linkedin.svg"
+                    alt="linkedin"
+                  />
+                </a>
+                <a href="https://github.com/Urryu" target="_blank"
+                  ><img
+                    style="height: 34px"
+                    src="./src/assets/images/icon-github.svg"
+                    alt="behance"
+                /></a>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li><img src="./src/assets/images/image-card-2.svg" alt="" /></li>
+            <li>
+              <h3>Beatriz Peres</h3>
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/perezbeatriz"
+                  target="_blank"
+                  ><img
+                    style="height: 34px"
+                    src="./src/assets/images/icon-linkedin.svg"
+                    alt="linkedin"
+                  />
+                </a>
+                <a href="https://github.com/Bee-Pirez" target="_blank"
+                  ><img
+                    style="height: 34px"
+                    src="./src/assets/images/icon-github.svg"
+                    alt="behance"
+                /></a>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li><img src="./src/assets/images/image-card-3.svg" alt="" /></li>
+            <li>
+              <h3>Cibele Rodrigues</h3>
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/cibelerodriguesl/"
+                  target="_blank"
+                  ><img
+                    style="height: 34px"
+                    src="./src/assets/images/icon-linkedin.svg"
+                    alt="linkedin"
+                  />
+                </a>
+                <a
+                  href="https://www.behance.net/cibelerodriguesl"
+                  target="_blank"
+                  ><img
+                    style="height: 34px"
+                    src="./src/assets/images/icon-behance.svg"
+                    alt="behance"
+                /></a>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li><img src="./src/assets/images/image-card-4.svg" alt="" /></li>
+            <li>
+              <h3>Eduardo Tavares</h3>
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/eduardodossantostavares"
+                  target="_blank"
+                  ><img
+                    style="height: 34px"
+                    src="./src/assets/images/icon-linkedin.svg"
+                    alt="linkedin"
+                  />
+                </a>
+                <a href="https://github.com/josiastavares" target="_blank"
+                  ><img
+                    style="height: 34px"
+                    src="./src/assets/images/icon-github.svg"
+                    alt="behance"
+                /></a>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div>
+        <ul>
+          <li>logo</li>
+          <li class="content_copy">
+            <img
+              class="copy"
+              src="./src/assets/images/copy.svg"
+              alt="copywriting"
+            />
+            <p>2023 HealthUnify. Todos os direitos reservados</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><h3>Institucional</h3></li>
+          <li><p>Política de privacidade</p></li>
+          <li><p>Termos e condições</p></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><h3>Ajuda</h3></li>
+          <li><p>Dúvidas frequentes</p></li>
+          <li><p>Fale conosco</p></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
